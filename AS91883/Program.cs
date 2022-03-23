@@ -5,21 +5,20 @@ Console.WriteLine("There are 3 different modes.");
 // QUIZ SELECTOR//
 Console.WriteLine("Please type which mode you would like to do by either typing \n.1 for BEGINNER \n2. for INTERMEDIATE \n3. for ADVANCED");
 selection = Convert.ToInt32(Console.ReadLine());
-string selectionResult = selection.ToLower();
-if (selectionResult != "beginner"|| selectionResult != "medium" || selectionResult != "hard")
+ while (!int.TryParse(Console.ReadLine(), selection != "1" || selection != "2" || selection != "3") 
 {
-    Console.WriteLine("No");
+ Console.WriteLine("PLEASE ENTER A VAILD NUMBER FROM THE LIST PROVIDED");
 }
-    if (selectionResult == "beginner" || selectionResult == "BEGGINNER" || selectionResult == "begginer")
-    {
-        Console.WriteLine("YOU CHOSE BEGINNER");
-    }
-    else if (selectionResult == "medium")
-    {
-        Console.WriteLine("YOU CHOSE MEDIUM");
-    }
-    else if (selectionResult == "hard")
-    {
-        Console.WriteLine("YOU CHOSE HARD");
-    }
- while (!int.TryParse(Console.ReadLine(), ))
+
+if (selection == "1") 
+{
+ Console.WriteLine("YOU CHOSE BEGINNER");
+}
+If (selection == "2") 
+{
+ Console.WriteLine("YOU CHOSE INTERMEDIATE");
+}
+if (selection == "3")
+{
+Console.WriteLine("YOU CHOSE ADVANCED")'
+}
