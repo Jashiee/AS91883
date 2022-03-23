@@ -1,5 +1,6 @@
 ﻿/* Introduction*/
 int selection;
+string a,b,c,d;
 Console.WriteLine("Hello There! This is a Te Reo Maori Quiz. The quiz will be multichoice!");
 Console.WriteLine("There are 3 different modes.");
 // QUIZ SELECTOR//
@@ -13,6 +14,9 @@ selection = Convert.ToInt32(Console.ReadLine());
 if (selection == "1") 
 {
  Console.WriteLine("YOU CHOSE BEGINNER");
+ Console.WriteLine("QUESTION 1:");
+ Console.WriteLine("What does the word Kia Ora translate to in English?");
+ Console.WriteLine
 }
 If (selection == "2") 
 {
