@@ -23,7 +23,7 @@ if (answer == "A" || answer == "a")
     {
         Console.WriteLine("Correct!");
     }
-if (answer != "A" && answer != "a")
+else
     {
         Console.WriteLine("Incorrect");
     }
@@ -31,24 +31,44 @@ if (answer != "A" && answer != "a")
     Console.WriteLine("What does the word 'LOVE' mean in Maori");
     Console.WriteLine("\nA.Love \nB.Aroha \nC.Ka Pai \nD.Whanau");
     answer = Console.ReadLine();
-    if (answer == "B" || answer == "C")
+    if (answer == "B" || answer == "b")
     {
         Console.WriteLine("Correct");
     }
-    if (answer != "B" && answer != "b")
+  else
     {
         Console.WriteLine("Incorrect");
     }
     Console.WriteLine("QUESTION 3:");
     Console.WriteLine("What does the word 'Family' translate to in Maori?");
-    Console.WriteLine("A.Family \nB. \nC.Good Job \nD.Yes");
+    Console.WriteLine("A.Family \nB.Ka Pai \nC.Whanau \nD.No");
     answer = Console.ReadLine();
-}
-if (selection == 2) 
-{
- Console.WriteLine("YOU CHOSE INTERMEDIATE");
-}
-if (selection == 3)
-{
+    if (answer == "c" || answer == "C")
+    {
+        Console.WriteLine("Correct");
+    }
+    else 
+    {
+        Console.WriteLine("Incorrect"); 
+    }
+    Console.WriteLine("QUESTION 4:");
+    Console.WriteLine("What does the word 'hate' translate to in Maori?");
+    Console.WriteLine("A.Grape \nB.Hate \nC.Yes \nD.Mauahara");
+    answer = Console.ReadLine();
+    if (answer == "D" || answer == "d")
+    {
+        Console.WriteLine("Correct");
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+    }
+    if (selection == 2)
+    {
+        Console.WriteLine("YOU CHOSE INTERMEDIATE");
+        
+    }
+    if (selection == 3)
+    {
     Console.WriteLine("YOU CHOSE ADVANCED");
 }
