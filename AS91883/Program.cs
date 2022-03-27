@@ -2,7 +2,9 @@
 int selection;
 string a,b,c,d;
 string answer;
-string [] 
+string[] MaoriWordsEasy = { "Kia Ora", "Aroha", " Family", "Mauahara", "Ahau", "Morena", "Hui", "Kai", "iwi", "moa" };
+string[] EnglsihWordsEasy = { "Hello", "Love", "Whanau", "Hate", "Me", "Good Morning", "gathering", "food", "Tribe", "flightless bird" };
+int score = 0;
 Console.ForegroundColor = ConsoleColor.Blue;
 Console.WriteLine("Hello There! This is a Te Reo Maori Quiz. The quiz will be multichoice!");
 Console.WriteLine("There are 3 different modes.");
@@ -25,6 +27,7 @@ if (selection == 1)
     if (answer == "A" || answer == "a")
     {
         Console.WriteLine("Correct!");
+        score = score++;
     }
 else
     {
@@ -40,6 +43,7 @@ else
     if (answer == "B" || answer == "b")
     {
         Console.WriteLine("Correct");
+        score = score++;
     }
   else
     {
@@ -54,6 +58,7 @@ else
     if (answer == "c" || answer == "C")
     {
         Console.WriteLine("Correct");
+        score = score++;
     }
     else 
     {
@@ -65,38 +70,49 @@ else
     Console.WriteLine("A.Grape \nB.Hate \nC.Yes \nD.Mauahara");
     answer = Console.ReadLine();
     Console.Clear();
-    switch (answer)
+    if (answer == "d" || answer == "D")
     {
-        case "a":
-            Console.WriteLine("Incorrect");
-            Console.Beep();
-            break;
-        case "b":
-            Console.WriteLine("Incorrect");
-            break;
-        case "c":
-            Console.WriteLine("Incorrect");
-            break;
-        case "d": 
-            Console.WriteLine("Correct!");
-            break;
-        case "D":
-            Console.WriteLine("Correct!");
-            break;
+        Console.WriteLine("Correct");
+        score = score++;
     }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+    }
+
     Console.WriteLine("QUESTION 5:");
     Console.WriteLine("What does the word 'Me' translate to in Maori?");
     Console.WriteLine("A.Ka Pai \nB.Ahau \nC.Me \nD.You");
     answer = Console.ReadLine();
-    switch (answer)
+    if (answer == "b" || answer == "B")
     {
-        case "b":
-            Console.WriteLine("Correct!");
-            break;
-        case "B":
-            Console.WriteLine("Correct!");
-            break;
+        Console.WriteLine("Correct");
+        score = score++;
     }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+    }
+    Console.WriteLine("QUESTION 6:");
+    Console.WriteLine("What does the word 'Good Morning' translate to in Maori?");
+    Console.WriteLine("A.Hola \nB.Good Moreno \nC. Morning \nD.Morena");
+    answer = Console.ReadLine();
+    if (answer == "d" || answer == "D")
+    {
+        Console.WriteLine("Correct");
+        score = score++;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+    }
+    Console.WriteLine("your score is " + (score));
+
+
+
 
 }
 Console.ForegroundColor = ConsoleColor.Green;
