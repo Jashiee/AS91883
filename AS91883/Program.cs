@@ -27,7 +27,7 @@ if (selection == 1)
     if (answer == "A" || answer == "a")
     {
         Console.WriteLine("Correct!");
-        score = score++;
+        score = score + 1;
     }
 else
     {
@@ -43,7 +43,7 @@ else
     if (answer == "B" || answer == "b")
     {
         Console.WriteLine("Correct");
-        score = score++;
+        score = score + 1;
     }
   else
     {
@@ -58,7 +58,7 @@ else
     if (answer == "c" || answer == "C")
     {
         Console.WriteLine("Correct");
-        score = score++;
+        score = score + 1;
     }
     else 
     {
@@ -73,7 +73,7 @@ else
     if (answer == "d" || answer == "D")
     {
         Console.WriteLine("Correct");
-        score = score++;
+        score = score + 1;
     }
     else
     {
@@ -85,10 +85,11 @@ else
     Console.WriteLine("What does the word 'Me' translate to in Maori?");
     Console.WriteLine("A.Ka Pai \nB.Ahau \nC.Me \nD.You");
     answer = Console.ReadLine();
+    Console.Clear();
     if (answer == "b" || answer == "B")
     {
         Console.WriteLine("Correct");
-        score = score++;
+        score = score + 1;
     }
     else
     {
@@ -99,17 +100,79 @@ else
     Console.WriteLine("What does the word 'Good Morning' translate to in Maori?");
     Console.WriteLine("A.Hola \nB.Good Moreno \nC. Morning \nD.Morena");
     answer = Console.ReadLine();
+    Console.Clear();
     if (answer == "d" || answer == "D")
     {
         Console.WriteLine("Correct");
-        score = score++;
+        score = score + 1;
     }
     else
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
     }
-    Console.WriteLine("your score is " + (score));
+    Console.WriteLine("QUESTION 7:");
+    Console.WriteLine("What does the word 'Meeting' translate to in Maori?");
+    Console.WriteLine("A.Hola \nB.Meeting \nC. Hui \nD.Mama");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "C" || answer == "c")
+    {
+        Console.WriteLine("Correct");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+    }
+ 
+    Console.WriteLine("QUESTION 8:");
+    Console.WriteLine("What does the word 'Food' translate to in Maori?");
+    Console.WriteLine("A.Yes \nB.Kai \nC. food \nD.Kapi");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "b" || answer == "B")
+    {
+        Console.WriteLine("Correct");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+    }
+    Console.WriteLine("QUESTION 9:");
+    Console.WriteLine("What does the word 'Tribe' translate to in Maori?");
+    Console.WriteLine("A.Iwi \nB.Tribe \nC. Whanau \nD.Mama");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "a" || answer == "A")
+    {
+        Console.WriteLine("Correct");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+    }
+    Console.WriteLine("QUESTION 10:");
+    Console.WriteLine("What does the word 'Flightless bird' translate to in Maori?");
+    Console.WriteLine("A.Mua \nB.Bird \nC.Birdy \nD.Moa");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "D" || answer == "d")
+    {
+        Console.WriteLine("Correct");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+    }
+    Console.WriteLine("your score is  " + (score) + "/10");
 
 
 
