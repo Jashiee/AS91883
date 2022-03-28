@@ -4,7 +4,10 @@ string a,b,c,d;
 string answer;
 string[] MaoriWordsEasy = { "Kia Ora", "Aroha", " Family", "Mauahara", "Ahau", "Morena", "Hui", "Kai", "iwi", "moa" };
 string[] EnglsihWordsEasy = { "Hello", "Love", "Whanau", "Hate", "Me", "Good Morning", "gathering", "food", "Tribe", "flightless bird" };
+string again;
+string[] MaoriWordsIntermediate = { " " };
 int score = 0;
+Start:
 Console.ForegroundColor = ConsoleColor.Blue;
 Console.WriteLine("Hello There! This is a Te Reo Maori Quiz. The quiz will be multichoice!");
 Console.WriteLine("There are 3 different modes.");
@@ -173,19 +176,99 @@ else
         Console.Beep();
     }
     Console.WriteLine("your score is  " + (score) + "/10");
-
-
-
-
+    Console.WriteLine("If you would like to take the quiz again please type 'y' for yes or just press any key to exit.");
+    again = Console.ReadLine();
+    if (again == "y" || again == "Y")
+    {
+        goto Start;
+    }
 }
+
+
 Console.ForegroundColor = ConsoleColor.Green;
 if (selection == 2)
+{
+    Console.WriteLine("YOU CHOSE INTERMEDIATE");
+    Console.Clear();
+    Console.WriteLine("QUESTION 1:");
+    Console.WriteLine("What does the word 'Sea' translate to in Maori?");
+    Console.WriteLine("A.Sea \nB.Ocean \nC.Mooana \nD.Moana");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "D" || answer == "d")
     {
-        Console.WriteLine("YOU CHOSE INTERMEDIATE");
-        
+        Console.WriteLine("Correct!");
+        score = score + 1;
     }
-Console.ForegroundColor = ConsoleColor.DarkRed;
-if (selection == 3)
+    else
     {
-    Console.WriteLine("YOU CHOSE ADVANCED");
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+
+    }
+    Console.WriteLine("QUESTION 2:");
+    Console.WriteLine("What does the word 'Walk' translate to in Maori?");
+    Console.WriteLine("A.Hikoi \nB.Hike \nC.Run \nD.Hukio");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "a" || answer == "A")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+
+    }
+    Console.WriteLine("QUESTION 3:");
+    Console.WriteLine("What does the word 'Prayer' translate to in Maori?");
+    Console.WriteLine("A.Mahi \nB.Koha \nC.Karakia  \nD.Prayer");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "C" || answer == "c")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+
+    }
+    Console.WriteLine("QUESTION 4:");
+    Console.WriteLine("What does the word 'Mountain' translate to in Maori?");
+    Console.WriteLine("A.Mahi \nB.Maunga \nC.Mountaino  \nD.");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "C" || answer == "c")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+
+    }
+
+
+
+
+    Console.ForegroundColor = ConsoleColor.DarkRed;
+    if (selection == 3)
+    {
+        Console.WriteLine("YOU CHOSE ADVANCED");
+    }
 }
+
+
+
+    
