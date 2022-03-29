@@ -32,13 +32,14 @@ if (selection == 1)
         Console.WriteLine("Correct!");
         score = score + 1;
     }
-else
+    else
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
     }
- Console.WriteLine("QUESTION 2:");
+
+
+    Console.WriteLine("QUESTION 2:");
     Console.WriteLine("What does the word 'LOVE' mean in Maori");
     Console.WriteLine("\nA.Love \nB.Aroha \nC.Ka Pai \nD.Whanau");
     answer = Console.ReadLine();
@@ -48,11 +49,12 @@ else
         Console.WriteLine("Correct");
         score = score + 1;
     }
-  else
+    else
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
     }
+
     Console.WriteLine("QUESTION 3:");
     Console.WriteLine("What does the word 'Family' translate to in Maori?");
     Console.WriteLine("A.Family \nB.Ka Pai \nC.Whanau \nD.No");
@@ -535,8 +537,15 @@ if (selection == 3)
         Console.Beep();
 
     }
-    
-    
+    Console.WriteLine("your score is  " + (score) + "/10");
+    Console.WriteLine("If you would like to take the quiz again please type 'y' for yes or just press any key to exit.");
+    again = Console.ReadLine();
+    Console.Clear();
+    if (again == "y" || again == "Y")
+    {
+        goto Start;
+    }
+
 }
 
 
