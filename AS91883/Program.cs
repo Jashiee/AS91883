@@ -423,6 +423,120 @@ if (selection == 3)
         Console.Beep();
 
     }
+        Console.WriteLine("QUESTION 4:");
+    Console.WriteLine("What does the word 'Toilet' translate to in Maori?");
+    Console.WriteLine("A.Whare Pako \nB.Whare Paku \nC.Whare Paki \nD.Whare Lu");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "b" || answer == "B")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+    }
+        Console.WriteLine("QUESTION 5:");
+    Console.WriteLine("What does the word 'Heart' translate to in Maori?");
+    Console.WriteLine("A.Ringa \nB.Ihu \nC.Manawa \nD.Arero");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "c" || answer == "C")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+    }
+        Console.WriteLine("QUESTION 6:");
+    Console.WriteLine("What does the word 'Christmas' translate to in Maori?");
+    Console.WriteLine("A.Kirihimete  \nB.Hararei \nC.Hakari \nD.Whakanui");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "a" || answer == "A")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+    }
+            Console.WriteLine("QUESTION 7:");
+    Console.WriteLine("What does the word 'Blood Relation' translate to in Maori?");
+    Console.WriteLine("A.Wahine  \nB.Tuahine \nC.Whakapapa \nD.Whanaunga");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "d" || answer == "D")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+    }
+               Console.WriteLine("QUESTION 8:");
+    Console.WriteLine("What does the word 'Auckland' translate to in Maori?");
+    Console.WriteLine("A.Tamaki Makaurau  \nB.Taamakai \nC.Tamaki \nD.Makauauro");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "a" || answer == "A")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+    }
+               Console.WriteLine("QUESTION 9:");
+    Console.WriteLine("What does the word 'Damp' translate to in Maori?");
+    Console.WriteLine("A.Waipuke  \nB.Hukarere \nC.Makuku \nD.Hukapapa");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "C" || answer == "c")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+    }
+               Console.WriteLine("QUESTION 10:");
+    Console.WriteLine("What does the word 'Colleague' translate to in Maori?");
+    Console.WriteLine("A.Peke  \nB.Hoamahi \nC.Kaitono \nD.Tomokanga");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "b" || answer == "B")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+    }
+    
+    
 }
 
 
