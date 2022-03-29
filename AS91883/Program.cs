@@ -178,6 +178,7 @@ else
     Console.WriteLine("your score is  " + (score) + "/10");
     Console.WriteLine("If you would like to take the quiz again please type 'y' for yes or just press any key to exit.");
     again = Console.ReadLine();
+    Console.Clear();
     if (again == "y" || again == "Y")
     {
         goto Start;
@@ -243,7 +244,7 @@ if (selection == 2)
     }
     Console.WriteLine("QUESTION 4:");
     Console.WriteLine("What does the word 'Mountain' translate to in Maori?");
-    Console.WriteLine("A.Mahi \nB.Maunga \nC.Mountaino  \nD.");
+    Console.WriteLine("A.Mahi \nB.Maunga \nC.Mountaino  \nD. Maunga");
     answer = Console.ReadLine();
     Console.Clear();
     if (answer == "C" || answer == "c")
@@ -258,17 +259,171 @@ if (selection == 2)
 
 
     }
-
-
-
-
-    Console.ForegroundColor = ConsoleColor.DarkRed;
-    if (selection == 3)
+    Console.WriteLine("QUESTION 5:");
+    Console.WriteLine("What does the word 'Motu' translate to in Englsih?");
+    Console.WriteLine("A.Area \nB.Place \nC.Land  \nD.Island");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "D" || answer == "d")
     {
-        Console.WriteLine("YOU CHOSE ADVANCED");
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+
+    }
+    Console.WriteLine("QUESTION 6:");
+    Console.WriteLine("What does the word 'Children' translate to in Maori?");
+    Console.WriteLine("A.Tamaarikii \nB.Tamariki \nC.Children  \nD. Childe");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "C" || answer == "c")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+
+    }
+    Console.WriteLine("QUESTION 7:");
+    Console.WriteLine("What does the word 'Funreal' translate to in Maori?");
+    Console.WriteLine("A.Tangi \nB.Hui \nC.Tungi  \nD. Tamaaki");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "A" || answer == "a")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+
+    }
+    Console.WriteLine("QUESTION 8:");
+    Console.WriteLine("What does the word 'Water' translate to in Maori?");
+    Console.WriteLine("A.Waterno \nB.Water \nC.Wai  \nD.Waiata");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "C" || answer == "c")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+
+    }
+    Console.WriteLine("QUESTION 9:");
+    Console.WriteLine("What does the word 'Song' translate to in Maori?");
+    Console.WriteLine("A.Chant \nB.Song \nC.Wai  \nD.Waiata");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "D" || answer == "d")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+
+    }
+    Console.WriteLine("QUESTION 10:");
+    Console.WriteLine("What does the word 'Canoe' translate to in Maori?");
+    Console.WriteLine("A.Canoe \nB.Waka \nC.Baot  \nD.Waika");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "B" || answer == "b")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+
+    }
+    Console.WriteLine("your score is  " + (score) + "/10");
+    Console.WriteLine("If you would like to take the quiz again please type 'y' for yes or just press any key to exit.");
+    again = Console.ReadLine();
+    Console.Clear();
+    if (again == "y" || again == "Y")
+    {
+        goto Start;
+    }
+
+}
+Console.ForegroundColor = ConsoleColor.DarkRed;
+if (selection == 3)
+{
+    Console.WriteLine("YOU CHOSE ADVANCED");
+    Console.WriteLine("QUESTION 1:");
+    Console.WriteLine("What does the word 'Awesome' translate to in Maori?");
+    Console.WriteLine("A.Tau ke \nB.Ka Paie \nC.Awesome \nD.He Reka");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "A" || answer == "a")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+    }
+    Console.WriteLine("QUESTION 2:");
+    Console.WriteLine("What does the word 'Wicked' translate to in Maori?");
+    Console.WriteLine("A.He Reka \nB.Whakapapa \nC.Wananei \nD.Me Haere");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "C" || answer == "c")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
+    }
+    Console.WriteLine("QUESTION 3:");
+    Console.WriteLine("What does the word 'Look' translate to in Maori?");
+    Console.WriteLine("A.He Reka \nB.Haerea \nC.Titiro \nD.Taunga");
+    answer = Console.ReadLine();
+    Console.Clear();
+    if (answer == "c" || answer == "C")
+    {
+        Console.WriteLine("Correct!");
+        score = score + 1;
+    }
+    else
+    {
+        Console.WriteLine("Incorrect");
+        Console.Beep();
+
     }
 }
 
 
 
-    
