@@ -1,6 +1,5 @@
 ﻿/* Introduction*/
 int selection;
-string a,b,c,d;
 string answer;
 string again;
 int score = 0;
@@ -252,8 +251,6 @@ if (selection == 2)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
-
     }
     Console.WriteLine("QUESTION 2:");
     Console.WriteLine("What does the word 'Walk' translate to in Maori?");
@@ -274,8 +271,6 @@ if (selection == 2)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
-
     }
     Console.WriteLine("QUESTION 3:");
     Console.WriteLine("What does the word 'Prayer' translate to in Maori?");
@@ -296,8 +291,6 @@ if (selection == 2)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
-
     }
     Console.WriteLine("QUESTION 4:");
     Console.WriteLine("What does the word 'Mountain' translate to in Maori?");
@@ -318,8 +311,6 @@ if (selection == 2)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
-
     }
     Console.WriteLine("QUESTION 5:");
     Console.WriteLine("What does the word 'Motu' translate to in Englsih?");
@@ -340,8 +331,6 @@ if (selection == 2)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
-
     }
     Console.WriteLine("QUESTION 6:");
     Console.WriteLine("What does the word 'Children' translate to in Maori?");
@@ -362,8 +351,6 @@ if (selection == 2)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
-
     }
     Console.WriteLine("QUESTION 7:");
     Console.WriteLine("What does the word 'Funreal' translate to in Maori?");
@@ -384,8 +371,6 @@ if (selection == 2)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
-
     }
     Console.WriteLine("QUESTION 8:");
     Console.WriteLine("What does the word 'Water' translate to in Maori?");
@@ -406,8 +391,6 @@ if (selection == 2)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
-
     }
     Console.WriteLine("QUESTION 9:");
     Console.WriteLine("What does the word 'Song' translate to in Maori?");
@@ -428,8 +411,6 @@ if (selection == 2)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
-
     }
     Console.WriteLine("QUESTION 10:");
     Console.WriteLine("What does the word 'Canoe' translate to in Maori?");
@@ -450,8 +431,6 @@ if (selection == 2)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
-
     }
     Console.WriteLine("your score is  " + (score) + "/10");
     Console.WriteLine("If you would like to take the quiz again please type 'y' for yes or just press any key to exit.");
@@ -461,7 +440,6 @@ if (selection == 2)
     {
         goto Start;
     }
-
 }
 Console.ForegroundColor = ConsoleColor.DarkRed;
 if (selection == 3)
@@ -486,7 +464,6 @@ if (selection == 3)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
     }
     Console.WriteLine("QUESTION 2:");
     Console.WriteLine("What does the word 'Wicked' translate to in Maori?");
@@ -507,7 +484,6 @@ if (selection == 3)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
     }
     Console.WriteLine("QUESTION 3:");
     Console.WriteLine("What does the word 'Look' translate to in Maori?");
@@ -528,9 +504,8 @@ if (selection == 3)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
     }
-        Console.WriteLine("QUESTION 4:");
+    Console.WriteLine("QUESTION 4:");
     Console.WriteLine("What does the word 'Toilet' translate to in Maori?");
     Console.WriteLine("A.Whare Pako \nB.Whare Paku \nC.Whare Paki \nD.Whare Lu");
     answer = Console.ReadLine();
@@ -549,9 +524,8 @@ if (selection == 3)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
     }
-        Console.WriteLine("QUESTION 5:");
+    Console.WriteLine("QUESTION 5:");
     Console.WriteLine("What does the word 'Heart' translate to in Maori?");
     Console.WriteLine("A.Ringa \nB.Ihu \nC.Manawa \nD.Arero");
     answer = Console.ReadLine();
@@ -570,9 +544,8 @@ if (selection == 3)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
     }
-        Console.WriteLine("QUESTION 6:");
+    Console.WriteLine("QUESTION 6:");
     Console.WriteLine("What does the word 'Christmas' translate to in Maori?");
     Console.WriteLine("A.Kirihimete  \nB.Hararei \nC.Hakari \nD.Whakanui");
     answer = Console.ReadLine();
@@ -591,9 +564,8 @@ if (selection == 3)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
     }
-            Console.WriteLine("QUESTION 7:");
+    Console.WriteLine("QUESTION 7:");
     Console.WriteLine("What does the word 'Blood Relation' translate to in Maori?");
     Console.WriteLine("A.Wahine  \nB.Tuahine \nC.Whakapapa \nD.Whanaunga");
     answer = Console.ReadLine();
@@ -614,7 +586,7 @@ if (selection == 3)
         Console.Beep();
 
     }
-               Console.WriteLine("QUESTION 8:");
+    Console.WriteLine("QUESTION 8:");
     Console.WriteLine("What does the word 'Auckland' translate to in Maori?");
     Console.WriteLine("A.Tamaki Makaurau  \nB.Taamakai \nC.Tamaki \nD.Makauauro");
     answer = Console.ReadLine();
@@ -633,9 +605,8 @@ if (selection == 3)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
     }
-               Console.WriteLine("QUESTION 9:");
+    Console.WriteLine("QUESTION 9:");
     Console.WriteLine("What does the word 'Damp' translate to in Maori?");
     Console.WriteLine("A.Waipuke  \nB.Hukarere \nC.Makuku \nD.Hukapapa");
     answer = Console.ReadLine();
@@ -654,9 +625,8 @@ if (selection == 3)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
     }
-               Console.WriteLine("QUESTION 10:");
+    Console.WriteLine("QUESTION 10:");
     Console.WriteLine("What does the word 'Colleague' translate to in Maori?");
     Console.WriteLine("A.Peke  \nB.Hoamahi \nC.Kaitono \nD.Tomokanga");
     answer = Console.ReadLine();
@@ -675,7 +645,6 @@ if (selection == 3)
     {
         Console.WriteLine("Incorrect");
         Console.Beep();
-
     }
     Console.WriteLine("your score is  " + (score) + "/10");
     Console.WriteLine("If you would like to take the quiz again please type 'y' for yes or just press any key to exit.");
@@ -685,9 +654,4 @@ if (selection == 3)
     {
         goto Start;
     }
-   
-
 }
-
-
-
