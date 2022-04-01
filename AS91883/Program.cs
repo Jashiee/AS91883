@@ -2,10 +2,7 @@
 int selection;
 string a,b,c,d;
 string answer;
-string[] MaoriWordsEasy = { "Kia Ora", "Aroha", " Family", "Mauahara", "Ahau", "Morena", "Hui", "Kai", "iwi", "moa" };
-string[] EnglsihWordsEasy = { "Hello", "Love", "Whanau", "Hate", "Me", "Good Morning", "gathering", "food", "Tribe", "flightless bird" };
 string again;
-string[] MaoriWordsIntermediate = { " " };
 int score = 0;
 Start:
 Console.ForegroundColor = ConsoleColor.Blue;
@@ -26,6 +23,11 @@ if (selection == 1)
  Console.WriteLine("What does the word Kia Ora translate to in English?");
  Console.WriteLine("A.Hello \nB.Hola \nC.Good Job \nD.Yes");
  answer = Console.ReadLine();
+while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "A" || answer == "a")
     {
@@ -37,12 +39,15 @@ if (selection == 1)
         Console.WriteLine("Incorrect");
         Console.Beep();
     }
-
-
     Console.WriteLine("QUESTION 2:");
     Console.WriteLine("What does the word 'LOVE' mean in Maori");
     Console.WriteLine("\nA.Love \nB.Aroha \nC.Ka Pai \nD.Whanau");
     answer = Console.ReadLine();
+    while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "B" || answer == "b")
     {
@@ -54,11 +59,15 @@ if (selection == 1)
         Console.WriteLine("Incorrect");
         Console.Beep();
     }
-
     Console.WriteLine("QUESTION 3:");
     Console.WriteLine("What does the word 'Family' translate to in Maori?");
     Console.WriteLine("A.Family \nB.Ka Pai \nC.Whanau \nD.No");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "c" || answer == "C")
     {
@@ -74,6 +83,11 @@ if (selection == 1)
     Console.WriteLine("What does the word 'hate' translate to in Maori?");
     Console.WriteLine("A.Grape \nB.Hate \nC.Yes \nD.Mauahara");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "d" || answer == "D")
     {
@@ -85,11 +99,15 @@ if (selection == 1)
         Console.WriteLine("Incorrect");
         Console.Beep();
     }
-
     Console.WriteLine("QUESTION 5:");
     Console.WriteLine("What does the word 'Me' translate to in Maori?");
     Console.WriteLine("A.Ka Pai \nB.Ahau \nC.Me \nD.You");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "b" || answer == "B")
     {
@@ -105,6 +123,11 @@ if (selection == 1)
     Console.WriteLine("What does the word 'Good Morning' translate to in Maori?");
     Console.WriteLine("A.Hola \nB.Good Moreno \nC. Morning \nD.Morena");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "d" || answer == "D")
     {
@@ -120,6 +143,11 @@ if (selection == 1)
     Console.WriteLine("What does the word 'Meeting' translate to in Maori?");
     Console.WriteLine("A.Hola \nB.Meeting \nC. Hui \nD.Mama");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "C" || answer == "c")
     {
@@ -131,11 +159,15 @@ if (selection == 1)
         Console.WriteLine("Incorrect");
         Console.Beep();
     }
- 
     Console.WriteLine("QUESTION 8:");
     Console.WriteLine("What does the word 'Food' translate to in Maori?");
     Console.WriteLine("A.Yes \nB.Kai \nC. food \nD.Kapi");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "b" || answer == "B")
     {
@@ -151,6 +183,11 @@ if (selection == 1)
     Console.WriteLine("What does the word 'Tribe' translate to in Maori?");
     Console.WriteLine("A.Iwi \nB.Tribe \nC. Whanau \nD.Mama");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "a" || answer == "A")
     {
@@ -166,6 +203,11 @@ if (selection == 1)
     Console.WriteLine("What does the word 'Flightless bird' translate to in Maori?");
     Console.WriteLine("A.Mua \nB.Bird \nC.Birdy \nD.Moa");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "D" || answer == "d")
     {
@@ -186,8 +228,6 @@ if (selection == 1)
         goto Start;
     }
 }
-
-
 Console.ForegroundColor = ConsoleColor.Green;
 if (selection == 2)
 {
@@ -197,6 +237,11 @@ if (selection == 2)
     Console.WriteLine("What does the word 'Sea' translate to in Maori?");
     Console.WriteLine("A.Sea \nB.Ocean \nC.Mooana \nD.Moana");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "D" || answer == "d")
     {
@@ -214,6 +259,11 @@ if (selection == 2)
     Console.WriteLine("What does the word 'Walk' translate to in Maori?");
     Console.WriteLine("A.Hikoi \nB.Hike \nC.Run \nD.Hukio");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "a" || answer == "A")
     {
@@ -231,6 +281,11 @@ if (selection == 2)
     Console.WriteLine("What does the word 'Prayer' translate to in Maori?");
     Console.WriteLine("A.Mahi \nB.Koha \nC.Karakia  \nD.Prayer");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "C" || answer == "c")
     {
@@ -248,6 +303,11 @@ if (selection == 2)
     Console.WriteLine("What does the word 'Mountain' translate to in Maori?");
     Console.WriteLine("A.Mahi \nB.Maunga \nC.Mountaino  \nD. Maunga");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "C" || answer == "c")
     {
@@ -265,6 +325,11 @@ if (selection == 2)
     Console.WriteLine("What does the word 'Motu' translate to in Englsih?");
     Console.WriteLine("A.Area \nB.Place \nC.Land  \nD.Island");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "D" || answer == "d")
     {
@@ -282,6 +347,11 @@ if (selection == 2)
     Console.WriteLine("What does the word 'Children' translate to in Maori?");
     Console.WriteLine("A.Tamaarikii \nB.Tamariki \nC.Children  \nD. Childe");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "C" || answer == "c")
     {
@@ -299,6 +369,11 @@ if (selection == 2)
     Console.WriteLine("What does the word 'Funreal' translate to in Maori?");
     Console.WriteLine("A.Tangi \nB.Hui \nC.Tungi  \nD. Tamaaki");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "A" || answer == "a")
     {
@@ -316,6 +391,11 @@ if (selection == 2)
     Console.WriteLine("What does the word 'Water' translate to in Maori?");
     Console.WriteLine("A.Waterno \nB.Water \nC.Wai  \nD.Waiata");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "C" || answer == "c")
     {
@@ -333,6 +413,11 @@ if (selection == 2)
     Console.WriteLine("What does the word 'Song' translate to in Maori?");
     Console.WriteLine("A.Chant \nB.Song \nC.Wai  \nD.Waiata");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "D" || answer == "d")
     {
@@ -350,6 +435,11 @@ if (selection == 2)
     Console.WriteLine("What does the word 'Canoe' translate to in Maori?");
     Console.WriteLine("A.Canoe \nB.Waka \nC.Baot  \nD.Waika");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "B" || answer == "b")
     {
@@ -381,6 +471,11 @@ if (selection == 3)
     Console.WriteLine("What does the word 'Awesome' translate to in Maori?");
     Console.WriteLine("A.Tau ke \nB.Ka Paie \nC.Awesome \nD.He Reka");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "A" || answer == "a")
     {
@@ -397,6 +492,11 @@ if (selection == 3)
     Console.WriteLine("What does the word 'Wicked' translate to in Maori?");
     Console.WriteLine("A.He Reka \nB.Whakapapa \nC.Wananei \nD.Me Haere");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "C" || answer == "c")
     {
@@ -413,6 +513,11 @@ if (selection == 3)
     Console.WriteLine("What does the word 'Look' translate to in Maori?");
     Console.WriteLine("A.He Reka \nB.Haerea \nC.Titiro \nD.Taunga");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "c" || answer == "C")
     {
@@ -429,6 +534,11 @@ if (selection == 3)
     Console.WriteLine("What does the word 'Toilet' translate to in Maori?");
     Console.WriteLine("A.Whare Pako \nB.Whare Paku \nC.Whare Paki \nD.Whare Lu");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "b" || answer == "B")
     {
@@ -445,6 +555,11 @@ if (selection == 3)
     Console.WriteLine("What does the word 'Heart' translate to in Maori?");
     Console.WriteLine("A.Ringa \nB.Ihu \nC.Manawa \nD.Arero");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "c" || answer == "C")
     {
@@ -461,6 +576,11 @@ if (selection == 3)
     Console.WriteLine("What does the word 'Christmas' translate to in Maori?");
     Console.WriteLine("A.Kirihimete  \nB.Hararei \nC.Hakari \nD.Whakanui");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "a" || answer == "A")
     {
@@ -477,6 +597,11 @@ if (selection == 3)
     Console.WriteLine("What does the word 'Blood Relation' translate to in Maori?");
     Console.WriteLine("A.Wahine  \nB.Tuahine \nC.Whakapapa \nD.Whanaunga");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "d" || answer == "D")
     {
@@ -493,6 +618,11 @@ if (selection == 3)
     Console.WriteLine("What does the word 'Auckland' translate to in Maori?");
     Console.WriteLine("A.Tamaki Makaurau  \nB.Taamakai \nC.Tamaki \nD.Makauauro");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "a" || answer == "A")
     {
@@ -509,6 +639,11 @@ if (selection == 3)
     Console.WriteLine("What does the word 'Damp' translate to in Maori?");
     Console.WriteLine("A.Waipuke  \nB.Hukarere \nC.Makuku \nD.Hukapapa");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "C" || answer == "c")
     {
@@ -525,6 +660,11 @@ if (selection == 3)
     Console.WriteLine("What does the word 'Colleague' translate to in Maori?");
     Console.WriteLine("A.Peke  \nB.Hoamahi \nC.Kaitono \nD.Tomokanga");
     answer = Console.ReadLine();
+    while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+    {
+        Console.WriteLine("Invalid input");
+        answer = Console.ReadLine();
+    }
     Console.Clear();
     if (answer == "b" || answer == "B")
     {
@@ -545,6 +685,7 @@ if (selection == 3)
     {
         goto Start;
     }
+   
 
 }
 
