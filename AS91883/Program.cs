@@ -15,20 +15,21 @@ while (!int.TryParse(Console.ReadLine(), out selection) || selection <= 0 || sel
 }
 Console.Clear();
 Console.ForegroundColor = ConsoleColor.Yellow;
+
 if (selection == 1) 
 {
  Console.WriteLine("YOU CHOSE BEGINNER");
  Console.WriteLine("QUESTION 1:");
  Console.WriteLine("What does the word Kia Ora translate to in English?");
  Console.WriteLine("A.Hello \nB.Hola \nC.Good Job \nD.Yes");
- answer = Console.ReadLine();
+ answer = Console.ReadLine(); 
 while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
-    if (answer == "A" || answer == "a")
+    if (answer == "A" || answer == "a" )
     {
         Console.WriteLine("Correct!");
         score = score + 1;
@@ -44,7 +45,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     answer = Console.ReadLine();
     while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -64,7 +65,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -84,7 +85,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -104,7 +105,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -124,7 +125,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -144,7 +145,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -164,7 +165,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -184,7 +185,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -204,7 +205,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -226,6 +227,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     {
         goto Start;
     }
+
 }
 Console.ForegroundColor = ConsoleColor.Green;
 if (selection == 2)
@@ -238,7 +240,7 @@ if (selection == 2)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -258,7 +260,7 @@ if (selection == 2)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -278,7 +280,7 @@ if (selection == 2)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -298,7 +300,7 @@ if (selection == 2)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -318,7 +320,7 @@ if (selection == 2)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -338,7 +340,7 @@ if (selection == 2)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -358,7 +360,7 @@ if (selection == 2)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -378,7 +380,7 @@ if (selection == 2)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -398,7 +400,7 @@ if (selection == 2)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -418,7 +420,7 @@ if (selection == 2)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -451,7 +453,7 @@ if (selection == 3)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -471,7 +473,7 @@ if (selection == 3)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -491,7 +493,7 @@ if (selection == 3)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -511,7 +513,7 @@ if (selection == 3)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -531,7 +533,7 @@ if (selection == 3)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -551,7 +553,7 @@ if (selection == 3)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -571,7 +573,7 @@ if (selection == 3)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -592,7 +594,7 @@ if (selection == 3)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -612,7 +614,7 @@ if (selection == 3)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -632,7 +634,7 @@ if (selection == 3)
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
-        Console.WriteLine("Invalid input");
+        Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
@@ -655,3 +657,4 @@ if (selection == 3)
         goto Start;
     }
 }
+Console.ResetColor();
