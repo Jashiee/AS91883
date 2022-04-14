@@ -1,42 +1,40 @@
-﻿/* Introduction*/
+﻿// Variables decleration//
 int selection;
 string answer;
 string again;
 int score = 0;
-Start:
-Console.ForegroundColor = ConsoleColor.Blue;
+Start: // this is were the user gets sent to if they want to take the quiz again.//
+/* Introduction*/
 Console.WriteLine("Hello There! This is a Te Reo Maori Quiz. The quiz will be multichoice!");
 Console.WriteLine("There are 3 different modes.");
-// QUIZ SELECTOR//
+// QUIZ SELECTOR//- The user is given options here so they can choose which mode they would like to do/
 Console.WriteLine("Please type which mode you would like to do by either typing \n1. for BEGINNER \n2. for INTERMEDIATE \n3. for ADVANCED");
 while (!int.TryParse(Console.ReadLine(), out selection) || selection <= 0 || selection >=4)
 {
- Console.WriteLine("PLEASE ENTER A VAILD NUMBER FROM THE LIST PROVIDED");
+ Console.WriteLine("PLEASE ENTER A VAILID NUMBER FROM THE LIST PROVIDED");
 }
-Console.Clear();
-Console.ForegroundColor = ConsoleColor.Yellow;
-
-if (selection == 1) 
+Console.Clear(); // clears the console, so it doesnt crowd up//
+if (selection == 1) // if user inputs 1, they will be taken to the Beginner quiz//
 {
  Console.WriteLine("YOU CHOSE BEGINNER");
  Console.WriteLine("QUESTION 1:");
  Console.WriteLine("What does the word Kia Ora translate to in English?");
  Console.WriteLine("A.Hello \nB.Hola \nC.Good Job \nD.Yes");
  answer = Console.ReadLine(); 
-while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
+while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B") // If user inputs something else than A B C or D, the console will display a error message.
     {
         Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
     Console.Clear();
-    if (answer == "A" || answer == "a" )
+    if (answer == "A" || answer == "a" ) // This checks if the answer is correct, if the answer is correct it will display a message saying 'correct'//
     {
         Console.WriteLine("Correct!");
-        score = score + 1;
+        score = score + 1; // If the answer is correct, 1 point will be added to score.
     }
     else
     {
-        Console.WriteLine("Incorrect");
+        Console.WriteLine("Incorrect"); // If the answer is incorrect, a beep sound will be played with a message displaying 'incorrect'.// 
         Console.Beep();
     }
     Console.WriteLine("QUESTION 2:");
@@ -48,7 +46,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
         Console.WriteLine("Please enter a vailid input.");
         answer = Console.ReadLine();
     }
-    Console.Clear();
+    Console.Clear(); // Clears the console, removing other questions so that the user does not have to scroll down//
     if (answer == "B" || answer == "b")
     {
         Console.WriteLine("Correct");
@@ -121,7 +119,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     }
     Console.WriteLine("QUESTION 6:");
     Console.WriteLine("What does the word 'Good Morning' translate to in Maori?");
-    Console.WriteLine("A.Hola \nB.Good Moreno \nC. Morning \nD.Morena");
+    Console.WriteLine("A.Hola \nB.Good Moreno \nC.Morning \nD.Morena");
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
@@ -141,7 +139,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     }
     Console.WriteLine("QUESTION 7:");
     Console.WriteLine("What does the word 'Meeting' translate to in Maori?");
-    Console.WriteLine("A.Hola \nB.Meeting \nC. Hui \nD.Mama");
+    Console.WriteLine("A.Hola \nB.Meeting \nC.Hui \nD.Mama");
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
@@ -161,7 +159,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     }
     Console.WriteLine("QUESTION 8:");
     Console.WriteLine("What does the word 'Food' translate to in Maori?");
-    Console.WriteLine("A.Yes \nB.Kai \nC. food \nD.Kapi");
+    Console.WriteLine("A.Yes \nB.Kai \nC.Food \nD.Kapi");
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
@@ -181,7 +179,7 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
     }
     Console.WriteLine("QUESTION 9:");
     Console.WriteLine("What does the word 'Tribe' translate to in Maori?");
-    Console.WriteLine("A.Iwi \nB.Tribe \nC. Whanau \nD.Mama");
+    Console.WriteLine("A.Iwi \nB.Tribe \nC.Whanau \nD.Mama");
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
@@ -219,18 +217,17 @@ while(answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer
         Console.WriteLine("Incorrect");
         Console.Beep();
     }
-    Console.WriteLine("your score is  " + (score) + "/10");
-    Console.WriteLine("If you would like to take the quiz again please type 'y' for yes or just press any key to exit.");
+    Console.WriteLine("Your score is  " + (score) + "/10"); // Displays the users score from throughout the program, this is for every correct question they get//
+    Console.WriteLine("If you would like to take the quiz again please type 'y' for yes or just press any key to exit.");// Asks the user if they would like to re take the quiz.
     again = Console.ReadLine();
     Console.Clear();
-    if (again == "y" || again == "Y")
+    if (again == "y" || again == "Y") // If the user inputs Y, they will be taken to the start of the quiz again where they can choose what mode they want to do.//
     {
-        goto Start;
+        goto Start; // takes user to the start.//
     }
 
 }
-Console.ForegroundColor = ConsoleColor.Green;
-if (selection == 2)
+if (selection == 2) // If user inputed 2, they will be taken to the intermediate level quiz.//
 {
     Console.WriteLine("YOU CHOSE INTERMEDIATE");
     Console.Clear();
@@ -356,7 +353,7 @@ if (selection == 2)
     }
     Console.WriteLine("QUESTION 7:");
     Console.WriteLine("What does the word 'Funreal' translate to in Maori?");
-    Console.WriteLine("A.Tangi \nB.Hui \nC.Tungi  \nD. Tamaaki");
+    Console.WriteLine("A.Tangi \nB.Hui \nC.Tungi  \nD.Tamaaki");
     answer = Console.ReadLine();
     while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
     {
@@ -443,8 +440,7 @@ if (selection == 2)
         goto Start;
     }
 }
-Console.ForegroundColor = ConsoleColor.DarkRed;
-if (selection == 3)
+if (selection == 3) //if user inputed 3, they will be taken to the advanced level quiz.//
 {
     Console.WriteLine("YOU CHOSE ADVANCED");
     Console.WriteLine("QUESTION 1:");
@@ -657,4 +653,3 @@ if (selection == 3)
         goto Start;
     }
 }
-Console.ResetColor();
