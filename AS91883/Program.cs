@@ -1,12 +1,8 @@
 ﻿// Variables decleration//
 namespace AS91883
 {
-
-
     class TeReoMaoriQuiz
     {
-
-
         public static void Main()
         {
 
@@ -21,21 +17,20 @@ namespace AS91883
                 Console.WriteLine("PLEASE ENTER A VAILID NUMBER FROM THE LIST PROVIDED");
             }
             Console.Clear(); // clears the console, so it doesnt crowd up//
-            if (selection == 1)
+            if (selection == 1) // This if statement gets the users input and then directs the user to the level they have chosen//
             {
-                Beginner();
+                Beginner(); //Method for Beginner Level//
             }
             if (selection == 2)
             {
-                Intermediate();
+                Intermediate(); //Method for Intermediate Level//
             }
-            if (selection == 3)
+            if (selection == 3) 
             {
-                Advanced();
+                Advanced(); //Method for Advanced Level//
             }
 
         }
-
         public static void Beginner()
         {
             string answer;
@@ -43,8 +38,8 @@ namespace AS91883
             string again;
             Console.WriteLine("YOU CHOSE BEGINNER");
             Console.WriteLine("QUESTION 1:");
-            Console.WriteLine("What does the word Kia Ora translate to in English?");
-            Console.WriteLine("A.Hello \nB.Hola \nC.Good Job \nD.Yes");
+            Console.WriteLine("What does the word Hello translate to in Maori?");
+            Console.WriteLine("A.Kia Ora \nB.Hola \nC.Good Job \nD.Yes");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B") // If user inputs something else than A B C or D, the console will display a error message.
             {
@@ -251,8 +246,6 @@ namespace AS91883
                 Main();// takes user to the start.//
             }
         }
-
-
         public static void Intermediate()
         {
             string answer;
@@ -469,7 +462,7 @@ namespace AS91883
                 Main();
             }
         }
-        public static void Advanced() //if user inputed 3, they will be taken to the advanced level quiz.//
+        public static void Advanced() //if user inputed 3, they will be taken to the advanced level quiz.
         {
             string answer;
             int score = 0;
@@ -685,6 +678,5 @@ namespace AS91883
                 Main();
             }
         }
-    }
+    } 
 }
-
