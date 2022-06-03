@@ -12,7 +12,7 @@
             Console.WriteLine("Please type which mode you would like to do by either typing\n\n1. for BEGINNER\n\n2. for INTERMEDIATE\n\n3. for ADVANCED \nJust Input The Number Next To The Option To Continue To That Stage.");
             while (!int.TryParse(Console.ReadLine(), out selection) || selection <= 0 || selection >= 4)
             {
-                Console.WriteLine("PLEASE ENTER A VAILID NUMBER FROM THE LIST PROVIDED");
+                Console.WriteLine("PLEASE ENTER A Valid NUMBER FROM THE LIST PROVIDED");
             }
             Console.Clear(); // clears the console, so it doesnt crowd up//
             if (selection == 1) // This if statement gets the users input and then directs the user to the level they have chosen//
@@ -37,16 +37,18 @@
             Console.WriteLine("-----------------------------");
             Console.WriteLine("YOU CHOSE BEGINNER");
             Console.WriteLine("-----------------------------");
+            Console.WriteLine("Please Press Enter To Continue :D");
             Console.ReadLine();
             Console.ResetColor();
             Console.Clear();
             Console.WriteLine("QUESTION 1:");
             Console.WriteLine("What does the word Hello translate to in Maori?");
             Console.WriteLine("\nA.Kia Ora\n\nB.Hola\n\nC.Good Job\n\nD.Yes");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B") // If user inputs something else than A B C or D, the console will display a error message.
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -67,10 +69,11 @@
             Console.WriteLine("QUESTION 2:");
             Console.WriteLine("What does the word 'LOVE' mean in Maori");
             Console.WriteLine("\nA.Love\n\nB.Aroha\n\nC.Ka Pai\n\nD.Whanau");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear(); // Clears the console, removing other questions so that the user does not have to scroll down//
@@ -91,10 +94,11 @@
             Console.WriteLine("QUESTION 3:");
             Console.WriteLine("What does the word 'Family' translate to in Maori?");
             Console.WriteLine("\nA.Family\n\nB.Ka Pai\n\nC.Whanau\n\nD.No");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -115,10 +119,11 @@
             Console.WriteLine("QUESTION 4:");
             Console.WriteLine("What does the word 'hate' translate to in Maori?");
             Console.WriteLine("\nA.Grape\n\nB.Hate\n\nC.Yes\n\nD.Mauahara");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -139,10 +144,11 @@
             Console.WriteLine("QUESTION 5:");
             Console.WriteLine("What does the word 'Me' translate to in Maori?");
             Console.WriteLine("\nA.Ka Pai\n\nB.Ahau\n\nC.Me\n\nD.You");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -163,10 +169,11 @@
             Console.WriteLine("QUESTION 6:");
             Console.WriteLine("What does the word 'Good Morning' translate to in Maori?");
             Console.WriteLine("\nA.Hola\n\nB.Good Moreno\n\nC.Morning\n\nD.Morena");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -187,10 +194,11 @@
             Console.WriteLine("QUESTION 7:");
             Console.WriteLine("What does the word 'Meeting' translate to in Maori?");
             Console.WriteLine("\nA.Hola\n\nB.Meeting\n\nC.Hui\n\nD.Mama");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -211,10 +219,11 @@
             Console.WriteLine("QUESTION 8:");
             Console.WriteLine("What does the word 'Food' translate to in Maori?");
             Console.WriteLine("\nA.Yes\n\nB.Kai\n\nC.Food\n\nD.Kapi");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -235,10 +244,11 @@
             Console.WriteLine("QUESTION 9:");
             Console.WriteLine("What does the word 'Tribe' translate to in Maori?");
             Console.WriteLine("\nA.Iwi\n\nB.Tribe\n\nC.Whanau\n\nD.Mama");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -259,10 +269,11 @@
             Console.WriteLine("QUESTION 10:");
             Console.WriteLine("What does the word 'Flightless bird' translate to in Maori?");
             Console.WriteLine("\nA.Mua\n\nB.Bird\n\nC.Birdy\n\nD.Moa");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -280,7 +291,17 @@
                 Console.Beep();
                 Console.ResetColor();
             }
-            Console.WriteLine("Your score is  " + (score) + "/10"); // Displays the users score from throughout the program, this is for every correct question they get//
+            Console.Clear();
+            Console.WriteLine("\nAmazing User! You Have Now Completed This Te Reo Maori Quiz ");
+            Console.WriteLine("\nYour score is  " + (score) + "/10"); // Displays the users score from throughout the beginner method, this is for every correct question they get//
+            if (score <= 5)
+            {
+                Console.WriteLine("\tYou Did Great User, Just A Little More Practice And You'll Be Amazing");
+            }
+            if (score >= 5)
+            {
+                Console.WriteLine("\tAmazing User!!!, You Have Done An Amazing Job :)");
+            }
             EndProgram();
         }
         public static void Intermediate()
@@ -292,16 +313,18 @@
             Console.WriteLine("-----------------------------");
             Console.WriteLine("YOU CHOSE INTERMEDIATE");
             Console.WriteLine("-----------------------------");
+            Console.WriteLine("Please Press Enter To Continue :D");
             Console.ReadLine();
             Console.ResetColor();
             Console.Clear();
             Console.WriteLine("QUESTION 1:");
             Console.WriteLine("What does the word 'Sea' translate to in Maori?");
             Console.WriteLine("\nA.Sea\n\nB.Ocean\n\nC.Mooana\n\nD.Moana");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -322,10 +345,11 @@
             Console.WriteLine("QUESTION 2:");
             Console.WriteLine("What does the word 'Walk' translate to in Maori?");
             Console.WriteLine("\nA.Hikoi\n\nB.Hike\n\nC.Run\n\nD.Hukio");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -346,10 +370,11 @@
             Console.WriteLine("QUESTION 3:");
             Console.WriteLine("What does the word 'Prayer' translate to in Maori?");
             Console.WriteLine("\nA.Mahi\n\nB.Koha\n\nC.Karakia \n\nD.Prayer");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -370,10 +395,11 @@
             Console.WriteLine("QUESTION 4:");
             Console.WriteLine("What does the word 'Mountain' translate to in Maori?");
             Console.WriteLine("\nA.Mahi\n\nB.Maunga\n\nC.Mountaino \n\nD. Maunga");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -394,10 +420,11 @@
             Console.WriteLine("QUESTION 5:");
             Console.WriteLine("What does the word 'Motu' translate to in Englsih?");
             Console.WriteLine("\nA.Area\n\nB.Place\n\nC.Land \n\nD.Island");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -417,11 +444,12 @@
             }
             Console.WriteLine("QUESTION 6:");
             Console.WriteLine("What does the word 'Children' translate to in Maori?");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             Console.WriteLine("\nA.Tamaarikii\n\nB.Tamariki\n\nC.Children \n\nD. Childe");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -442,10 +470,11 @@
             Console.WriteLine("QUESTION 7:");
             Console.WriteLine("What does the word 'Funreal' translate to in Maori?");
             Console.WriteLine("\nA.Tangi\n\nB.Hui\n\nC.Tungi \n\nD.Tamaaki");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -466,10 +495,11 @@
             Console.WriteLine("QUESTION 8:");
             Console.WriteLine("What does the word 'Water' translate to in Maori?");
             Console.WriteLine("\nA.Waterno\n\nB.Water\n\nC.Wai \n\nD.Waiata");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -490,10 +520,11 @@
             Console.WriteLine("QUESTION 9:");
             Console.WriteLine("What does the word 'Song' translate to in Maori?");
             Console.WriteLine("\nA.Chant\n\nB.Song\n\nC.Wai \n\nD.Waiata");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -514,10 +545,11 @@
             Console.WriteLine("QUESTION 10:");
             Console.WriteLine("What does the word 'Canoe' translate to in Maori?");
             Console.WriteLine("\nA.Canoe\n\nB.Waka\n\nC.Baot \n\nD.Waika");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -535,7 +567,17 @@
                 Console.Beep();
                 Console.ResetColor();
             }
-            Console.WriteLine("Your Score is  " + (score) + "/10");
+            Console.Clear();
+            Console.WriteLine("\nAmazing User! You Have Now Completed This Te Reo Maori Quiz ");
+            Console.WriteLine("\nYour Score is  " + (score) + "/10");
+            if (score <= 5)
+            {
+                Console.WriteLine("\tYou Did Great User, Just A Little More Practice And You'll Be Amazing");
+            }
+            if (score >= 5)
+            {
+                Console.WriteLine("\tAmazing User!!! You Have Done An Amazing Job :)");
+            }
             EndProgram();
         }
         public static void Advanced() //if user inputed 3, they will be taken to the advanced level quiz.
@@ -547,16 +589,18 @@
             Console.WriteLine("-----------------------------");
             Console.WriteLine("YOU CHOSE ADVANCED");
             Console.WriteLine("-----------------------------");
+            Console.WriteLine("Please Press Enter To Continue :D");
             Console.ReadLine();
             Console.ResetColor();
             Console.Clear();
             Console.WriteLine("QUESTION 1:");
             Console.WriteLine("What does the word 'Awesome' translate to in Maori?");
             Console.WriteLine("\nA.Tau ke\n\nB.Ka Paie\n\nC.Awesome\n\nD.He Reka");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -577,10 +621,11 @@
             Console.WriteLine("QUESTION 2:");
             Console.WriteLine("What does the word 'Wicked' translate to in Maori?");
             Console.WriteLine("\nA.He Reka\n\nB.Whakapapa\n\nC.Wananei\n\nD.Me Haere");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -601,10 +646,11 @@
             Console.WriteLine("QUESTION 3:");
             Console.WriteLine("What does the word 'Look' translate to in Maori?");
             Console.WriteLine("\nA.He Reka\n\nB.Haerea\n\nC.Titiro\n\nD.Taunga");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -625,10 +671,11 @@
             Console.WriteLine("QUESTION 4:");
             Console.WriteLine("What does the word 'Toilet' translate to in Maori?");
             Console.WriteLine("\nA.Whare Pako\n\nB.Whare Paku\n\nC.Whare Paki\n\nD.Whare Lu");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -649,10 +696,11 @@
             Console.WriteLine("QUESTION 5:");
             Console.WriteLine("What does the word 'Heart' translate to in Maori?");
             Console.WriteLine("\nA.Ringa\n\nB.Ihu\n\nC.Manawa\n\nD.Arero");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -673,10 +721,11 @@
             Console.WriteLine("QUESTION 6:");
             Console.WriteLine("What does the word 'Christmas' translate to in Maori?");
             Console.WriteLine("\nA.Kirihimete \n\nB.Hararei\n\nC.Hakari\n\nD.Whakanui");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -697,10 +746,11 @@
             Console.WriteLine("QUESTION 7:");
             Console.WriteLine("What does the word 'Blood Relation' translate to in Maori?");
             Console.WriteLine("\nA.Wahine \n\nB.Tuahine\n\nC.Whakapapa\n\nD.Whanaunga");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -722,10 +772,11 @@
             Console.WriteLine("QUESTION 8:");
             Console.WriteLine("What does the word 'Auckland' translate to in Maori?");
             Console.WriteLine("\nA.Tamaki Makaurau \n\nB.Taamakai\n\nC.Tamaki\n\nD.Makauauro");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -746,10 +797,11 @@
             Console.WriteLine("QUESTION 9:");
             Console.WriteLine("What does the word 'Damp' translate to in Maori?");
             Console.WriteLine("\nA.Waipuke \n\nB.Hukarere\n\nC.Makuku\n\nD.Hukapapa");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -770,10 +822,11 @@
             Console.WriteLine("QUESTION 10:");
             Console.WriteLine("What does the word 'Colleague' translate to in Maori?");
             Console.WriteLine("\nA.Peke \n\nB.Hoamahi\n\nC.Kaitono\n\nD.Tomokanga");
+            Console.WriteLine("You Can Input The Letter Next To The Option Provided ");
             answer = Console.ReadLine();
             while (answer != "d" && answer != "c" && answer != "a" && answer != "b" && answer != "D" && answer != "C" && answer != "A" && answer != "B")
             {
-                Console.WriteLine("Please enter a vailid input.");
+                Console.WriteLine("Please enter a Valid input.");
                 answer = Console.ReadLine();
             }
             Console.Clear();
@@ -791,23 +844,37 @@
                 Console.Beep();
                 Console.ResetColor();
             }
-            Console.WriteLine("Your Score is  " + (score) + "/10");
+            Console.Clear();
+            Console.WriteLine("\nAmazing User! You Have Now Completed This Te Reo Maori Quiz ");
+            Console.WriteLine("\nYour Score is  " + (score) + "/10");
+            if (score <= 5)
+            {
+                Console.WriteLine("\tYou Did Great User, Just A Little More Practice And You'll Be Amazing");
+            }
+            if (score >= 5)
+            {
+                Console.WriteLine("\tAmazing User!!! You Have Done An Amazing Job :)");
+            }
             EndProgram();
         }
         public static void EndProgram()
         {
             string again;
-            Console.WriteLine("If you would like to take the quiz again please type 'y' for yes or press 'N' for No.");
+            Console.WriteLine("\n\nIf you would like to take the quiz again please type 'y' for yes or press any key to exit");
             again = Console.ReadLine();
             Console.Clear();
             if (again == "y" || again == "Y")
             {
                 Main();
             }
-            else if (again == "n" || again == "N")
+            else 
             {
-                Console.WriteLine("Thank You for Participating in this Te Reo Maori Quiz. :)");
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Thank You for Participating in this Te Reo Maori Quiz. :) \nPlease press any key to exit this quiz.");
+                Console.ReadLine();
+                Console.ResetColor();
             }
+         
         }
            
     }
